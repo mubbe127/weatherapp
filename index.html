@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <main>
+      <div>
+        
+        <div class="weather">
+          <form class="weatherform">
+            <div>
+              <label for="inputCountry">Weather location:</label>
+              <input type="text" id="inputCountry" name="inputCountry" />
+            </div>
+            <div>
+              <label for="choose">Choose:</label>
+              <select name="choose" id="choose">
+                <option value="current">Current weather</option>
+                <option value="forecast">Forecast weather</option>
+              </select>
+            </div>
+            <button id="buttonSubmit">submit</button>
+          </form>
+          <div class="error">
+            <p id="errorMessage"></p>
+          </div>
+          <div class="displayWeather"></div>
+          <img src="" alt="" id="myImage">
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
